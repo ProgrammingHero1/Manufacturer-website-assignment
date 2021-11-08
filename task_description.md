@@ -21,7 +21,7 @@ We have a sample task for you.
 
 
 6. Implement at least two (google, facebook, github,or email/ password) authentication. Once a user is logged in, the user name, logout button should appear on the header which will log out the user once clicked. Displaying username or the user profile pic on the header is optional.
-7. If a user is logged in, he/she will see more options like `My Orders`, `Review`, `Logout`. Based on your website idea, you can change the name of these menu items. 
+7. If a user is logged in, he/she will see another option called `Dashboard` and inside that dashboard a normal user will see options like `My Orders`, `Review`, `Logout`. Based on your website idea, you can change the name of these menu items. 
 8. On the my orders page, the logged in user will see only his/her orders. If the user wants, he/she should be able to cancel/delete any order. Ask a confirmation message before deleting or canceling an item. Using browser confirmation dialog is ok. 
 9. On the Review page, user should be able to add a review and that review will appear on the hope age.
 
