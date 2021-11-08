@@ -11,7 +11,7 @@ We have a sample task for you.
 3. Initially, do not spend too much on thinking the design. Just spend 30minutes to an hour. And then finalize the idea. Start working on the project. If needed put a placeholder image and keep developing the functionalities. Once the functionality is done, come back to add proper images. 
 
 ## Task Detail: 
-1. Home page will have a header (simple navbar), banner, products/items/services: (the main items that user will purchase), and footer. On the home page, the products/services will have maximum 6 items/services. You can put one or more items/services in a row based on your design. Each service should have a relevant name, image, short description but no purchase or buy now button.
+1. Home page will have a header (simple navbar), products/items/services: (the main items that user will purchase), reviews, and footer. On the home page, the products/services will have maximum 6 items/services. You can put one or more items/services in a row based on your design. Each service should have a relevant name, image, short description but no purchase or buy now button.
 2. Add two extra sections in the home page in addition to the 4 sections mentioned above. 
 
 
