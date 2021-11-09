@@ -1,4 +1,4 @@
-# Single Product Category Website
+# Niche Product Website
 Make sure you create two private repos. One for the client side. Another for the server side.
 
 ## [Client Side Private repo link](https://classroom.github.com/a/afIj_UMn)
