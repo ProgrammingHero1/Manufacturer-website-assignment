@@ -31,17 +31,19 @@ We have a simple sample task for you.
 10. Use a database to store information. It could be mongodb atlas or any other noSQL database.
 
 ### Bonus: 
-1. At the time of adding review, you may add an input field to add ratings (a number between 0-5). Based on the rating, display rating star on each reviews in the home page
-2. On the `Manage All Orders` page for the admin, the logged in admin will see the orders placed by every user. If multiple users used this website to place orders, everyone's order will be displayed here. The admin will be able to delete anyone's order here. Make sure to add a confirmation before deleting. Also, the admin can update the status of the order. At the time of placing an order, every order will have a default status: pending. On the Manage All Orders page, an admin will be able to update the status of the pending to `shipped` status. This could be a simple button to update the pending status. (don't over think, this is a simple button to update the status field of an order. Use Id to find the order and set the status to approved) 
+1. At the time of adding review, you may add an input field to add ratings (a number between 0-5). Based on the rating, display rating star on each reviews in the home page 
+
 3. use separate data collections for products, reviews, users, orders, etc.
 
-5. Meaningful `readme.md` file containing your website name, a little description, link to your live site. And at least five bullet points mentioning different features and functionality of your website.
+5. Meaningful `readme.md` file both on client side and server side. containing your website name, a little description, link to your live site. And at least five bullet points mentioning different features and functionality of your website.
 6. Make the website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsive is optional
 7. Make the website meaningful and consistent in look and feel. Give your website a relevant name. Images and all the content of the website has to be relevant. No `lorem ipsum` please. 
 8. Clean and organized Code. Organize components and add comments when needed
 
-8. use .env file to hide db user and password and also use .gitignore file
+8. use .env file on the server, .env.local file on the client to hide db user and password, etc. Also use .gitignore file
 
+10. On the `Manage All Orders` page for the admin, the logged in admin will see the orders placed by every user. If multiple users used this website to place orders, everyone's order will be displayed here. The admin will be able to delete anyone's order here. Make sure to add a confirmation before deleting. Also, the admin can update the status of the order. At the time of placing an order, every order will have a default status: pending. On the Manage All Orders page, an admin will be able to update the status of the pending to `shipped` status. This could be a simple button to update the pending status. (don't over think, this is a simple button to update the status field of an order. Use Id to find the order and set the status to approved)
+11. on the `Manage Products` page, an admin can delete any of the products. Please make sure there is a confirmation. After delete that product will not appear on the `explore` page.
 
 ### Optional:
 Make sure you have done everything on the main part and bonus. deploy and test everything after that you may try optional things.
