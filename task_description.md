@@ -31,7 +31,7 @@ We have a simple sample task for you.
 10. Use a database to store information. It could be mongodb atlas or any other noSQL database.
 
 ### Bonus: 
-1. 2. At the time of adding review, you may add an input field to add ratings (a number between 0-5). Based on the rating, display rating star on each reviews in the home page
+1. At the time of adding review, you may add an input field to add ratings (a number between 0-5). Based on the rating, display rating star on each reviews in the home page
 2. On the `Manage All Orders` page for the admin, the logged in admin will see the orders placed by every user. If multiple users used this website to place orders, everyone's order will be displayed here. The admin will be able to delete anyone's order here. Make sure to add a confirmation before deleting. Also, the admin can update the status of the order. At the time of placing an order, every order will have a default status: pending. On the Manage All Orders page, an admin will be able to update the status of the pending to `shipped` status. This could be a simple button to update the pending status. (don't over think, this is a simple button to update the status field of an order. Use Id to find the order and set the status to approved) 
 3. use separate data collections for products, reviews, users, orders, etc.
 
