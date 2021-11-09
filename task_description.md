@@ -40,7 +40,7 @@ We have a simple sample task for you.
 
 8. use .env file on the server, .env.local file on the client to hide db user and password, etc. Also use .gitignore file
 
-10. On the `Manage All Orders` page for the admin, the logged in admin will see the orders placed by every user. If multiple users used this website to place orders, everyone's order will be displayed here. The admin will be able to delete anyone's order here. Make sure to add a confirmation before deleting. Also, the admin can update the status of the order. At the time of placing an order, every order will have a default status: pending. On the Manage All Orders page, an admin will be able to update the status of the pending to `shipped` status. This could be a simple button to update the pending status. (don't over think, this is a simple button to update the status field of an order. Use Id to find the order and set the status to approved)
+10. On the `Manage All Orders` page for the admin, the logged in admin will see the orders placed by every user. If multiple users used this website to place orders, everyone's order will be displayed here. Admin can update the status of the order. At the time of placing an order, every order will have a default status: pending. On the Manage All Orders page, an admin will be able to update the status of the pending to `shipped` status. This could be a simple button to update the pending status. (don't over think, this is a simple button to update the status field of an order. Use Id to find the order and set the status to approved). Also, it would be nice if you can do one additonal task here: The admin will be able to delete anyone's order here. Make sure to add a confirmation before deleting. Please note: delete is optional but recommended on this page.
 11. on the `Manage Products` page, an admin can delete any of the products. Please make sure there is a confirmation. After delete that product will not appear on the `explore` page.
 
 ### Optional:
@@ -70,7 +70,6 @@ Make sure you have done everything on the main part and bonus. deploy and test e
 4. If needed you can mix CSS framework with a component library
 5. You may use `react hook form`, basic html form or any library for authentication
 6. Local storage is optional
-7. Client side Environment variable is recommended but optional.
 8. Try to host your site on Firebase (Netlify host will need extra configuration)
 9. Try to host server on heroku
 
