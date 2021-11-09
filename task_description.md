@@ -33,8 +33,6 @@ We have a simple sample task for you.
 ### Bonus: 
 1. At the time of adding review, you may add an input field to add ratings (a number between 0-5). Based on the rating, display rating star on each reviews in the home page 
 
-3. use separate data collections for products, reviews, users, orders, etc.
-
 5. Meaningful `readme.md` file both on client side and server side. containing your website name, a little description, link to your live site. And at least five bullet points mentioning different features and functionality of your website.
 6. Make the website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsive is optional
 7. Make the website meaningful and consistent in look and feel. Give your website a relevant name. Images and all the content of the website has to be relevant. No `lorem ipsum` please. 
